@@ -1,5 +1,6 @@
 
 import './App.css';
+import QuestionsComponent from './QuestionsComponent';
 import Review from './Review';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
         <div className='title'>
           <h2>Our Reviews</h2>
           <div className='underline'></div>
-          <Review/>
+         {/*  <Review/> */}
+          <QuestionsComponent/>
 
         </div>
 
